@@ -1,12 +1,25 @@
-.matchDataContainer {
+.matchDataBox {
     border: 1px solid purple;
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 10px;
 }
-.pagination {
+.date {
+    font-weight: bold;
+}
+.matchDataContainer {
+    display: grid;
+    padding: 1rem;
+    gap: 1rem;
+    grid-template-columns: repeat(5,1fr);
+}
+.dataText {
+    color: #333333;
     text-align: center;
+}
+.pagination {
     display: flex;
+    justify-content: center;
     color: black;
     font-size: 22px;
     padding: 1rem;
