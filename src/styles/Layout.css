@@ -1,0 +1,36 @@
+.layout {
+    background-color: #D906FD;
+    padding: 2rem;
+}
+.crown-container {
+    width: 40%;
+}
+.crown {
+    width: 80px;
+}
+h1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+h3{
+    margin: 0;
+    color: white;
+    font-weight: 300;
+    text-align: right;
+    margin-top: 1rem;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.navTitle{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-right: 3rem;
+    border-bottom: 2px solid;
+}

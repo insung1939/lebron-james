@@ -1,0 +1,19 @@
+.lebron-infoTitle {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.lebron-infoText {
+    font-size: 1rem;
+    word-break: keep-all;
+    font-weight: 400;
+    margin: auto;
+    width: 30%;
+}
+
+.selfie {
+    width: 400px;
+    height: 400px;
+}

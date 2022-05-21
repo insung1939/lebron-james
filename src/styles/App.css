@@ -1,0 +1,23 @@
+.main-text {
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.lebron-gallery {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, minmax(auto,400px));
+    grid-gap: 1rem;
+}
+
+.lebron-img{
+    object-fit: cover;
+    box-shadow: 0px 0px 11px 3px rgba(137,129,255,0.79);
+    width: 100%;
+    height: 100%;
+}
+
+.lebron-img:hover {
+    transform: scale(1.1);
+}
